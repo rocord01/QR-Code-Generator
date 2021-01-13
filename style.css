@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -9,11 +10,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(19deg,#24d4fd 0%,#b721ff); 
+    background: rgb(35, 49, 42); 
 }
 h1{
     color: white;
     margin: 15px;
+    font-family: 'Inconsolata', monospace;
+}
+h4{
+    color: white;
+    margin: 15px;
+    font-family: 'Inconsolata', monospace;
 }
 input{
     width: 300px;
@@ -34,7 +41,12 @@ button{
     margin: 15px;
     cursor: pointer;
     outline: none;
-    background: #b721ff;
+    background: floralwhite;
     color: white;
     border: none;
+    color: rgb(35, 49, 42);
+    font-family: 'Inconsolata', monospace;
+}
+.hide{
+    display: none;
 }
